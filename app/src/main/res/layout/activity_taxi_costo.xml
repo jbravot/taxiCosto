@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".TaxiCosto"
+    android:id="@+id/Main"
+    android:weightSum="1"
+    android:background="@drawable/layout_sombra">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/desdeText"
+            android:layout_height="@dimen/taxicosto_alto"
+            android:hint="@string/desde_label"
+            android:layout_column="17"
+            android:enabled="false"
+            android:layout_width="match_parent"
+            android:editable="true"
+            android:layout_weight="0.98"
+            android:textColor="#000000"
+            android:background="@drawable/input" />
+
+        <ImageButton
+            android:id="@+id/gpsButton"
+            android:layout_width="@dimen/taxicosto_alto"
+            android:layout_height="@dimen/taxicosto_alto"
+            android:layout_column="18"
+            android:src="@android:drawable/ic_menu_mylocation"
+            style="@style/botonBordeTheme" />
+
+    </LinearLayout>
+
+    <AutoCompleteTextView
+        android:id="@+id/hastaAutocomplete"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/taxicosto_alto"
+        android:layout_marginTop="5dp"
+        android:hint="@string/hasta_label"
+        android:textColor="#000000"
+        android:background="@drawable/input"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.86" />
+
+    <Button
+        android:id="@+id/estimarButton"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/taxicosto_alto"
+        android:text="@string/estimar_label"
+        android:layout_gravity="center_horizontal"
+        style="@style/botonTheme"/>
+
+</LinearLayout>

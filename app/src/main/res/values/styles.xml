@@ -1,0 +1,17 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <style name="botonTheme">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/boton</item>
+    </style>
+
+    <style name="botonBordeTheme">
+        <item name="android:background">@drawable/boton_borde</item>
+    </style>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="resaltar_light" type="color">#F57C00</item>
+    <item name="resaltar_dark" type="color">#E65100</item>
+    <item name="borde_gris" type="color">#CCCCCC</item>
+    <item name="borde_gris_light" type="color">#EEEEEE</item>
+
+</resources>
